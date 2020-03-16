@@ -13,4 +13,8 @@ Outline.prototype.asHTML = function (options) {
 	return asHTML(this.sections, options);
 };
 
+Outline.prototype.asTree = function (options) {
+	return asTree(this.sections, options);
+};
+
 module.exports = Outline;
