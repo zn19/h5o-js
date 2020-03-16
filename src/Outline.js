@@ -1,4 +1,5 @@
 var asHTML = require("./asHTML");
+var asTree = require("./asTree");
 
 function Outline(outlineTarget, onlySection) {
 	this.startingNode = outlineTarget.node;
